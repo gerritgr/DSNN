@@ -2,4 +2,6 @@ FROM jupyter/datascience-notebook
 MAINTAINER "GGX"
 
 RUN git clone https://github.com/gerritgr/dsnn
-RUN cd DSNN && bash install.sh
+RUN cd DSNN && conda env create -f environment.yml -n dsnn
+RUN python -m ipykernel install --user --name=dsnn --display-name="Python (dsnn)"
+
