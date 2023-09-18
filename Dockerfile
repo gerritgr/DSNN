@@ -1,5 +1,4 @@
 FROM jupyter/datascience-notebook
-MAINTAINER "GGX"
 
 RUN git clone https://github.com/gerritgr/dsnn
 RUN cd DSNN && conda env create -f environment.yml -n dsnn
