@@ -30,7 +30,7 @@ The number of parameters and the accuracy (higher is better) of each model are:
 | ENZYMES    | DSNN   |     107590  |  0.4  |
 | ENZYMES    | GIN    |     38086     |  0.37  |
 | ENZYMES    | PNA    |   270043   |  0.25 |
-| ENZYMES    | GCN    |    17286       | 0.267  |
+| ENZYMES    | GCN    |    17286       | 0.27  |
 |----------|--------|---------------|---------------|
 | IMDB-BINARY    | DSNN   |  104641     |  0.72 |
 | IMDB-BINARY    | GIN    |       37633   |  0.46 |
