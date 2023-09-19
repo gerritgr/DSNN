@@ -12,6 +12,29 @@ DSNN has two components (`MLP_1` and `MLP_2`), each with nine layers. These comp
 #### Baselines
 For comparison, we employ models from _PyTorch Geometric_ as our baselines, specifically GIN, PNA, and GCN. These models are configured with five layers and a latent dimension of 64.
 
+The number of parameters of each model are:
+
+| Dataset | Model  | # Params       |
+|----------|--------|---------------|
+| MUTAG    | DSNN   |    111553   |
+| MUTAG    | GIN    |     38017     |
+| MUTAG    | PNA    |   273130    |
+| MUTAG    | GCN    |      16961     |
+|----------|--------|---------------|
+| PROTEIN    | DSNN   |  106945     |
+| PROTEIN    | GIN    |     37761     |
+| PROTEIN    | PNA    | 269718      |
+| PROTEIN    | GCN    |     17217      |
+|----------|--------|---------------|
+| ENZYMES    | DSNN   |     107590  |
+| ENZYMES    | GIN    |     38086     |
+| ENZYMES    | PNA    |   270043   |
+| ENZYMES    | GCN    |    17286       |
+|----------|--------|---------------|
+| IMDB-BINARY    | DSNN   |  104641     |
+| IMDB-BINARY    | GIN    |       37633   |
+| IMDB-BINARY    | PNA    |  268036     |
+| IMDB-BINARY    | GCN    |    16833      |
 
 ## Run DSNN Locally
 
