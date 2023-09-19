@@ -1,4 +1,4 @@
-# DSNN
+# Deep Set Neural Networks (DSNN)
 
 ![alt text](overview.png "Overview")
 
