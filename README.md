@@ -1,4 +1,7 @@
 # DSNN
+
+![alt text](overview.png "Overview")
+
 This repository provides a proof-of-concept implementation for the manuscript _Deep Sets Are Viable Graph Learners_.
 
 ## DSNN Model
