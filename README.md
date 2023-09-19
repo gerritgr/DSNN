@@ -12,7 +12,8 @@ DSNN has two components (`MLP_1` and `MLP_2`), each with nine layers. These comp
 #### Baselines
 For comparison, we employ models from _PyTorch Geometric_ as our baselines, specifically GIN, PNA, and GCN. These models are configured with five layers and a latent dimension of 64.
 
-The number of parameters of each model are:
+#### Results
+The number of parameters and the accuracy (higher is better) of each model are:
 
 | Dataset | Model  | # Params       |  ACC       |
 |----------|--------|---------------|---------------|
