@@ -40,7 +40,9 @@ The number of parameters and the accuracy (higher is better) of each model are:
 | IMDB-BINARY    | PNA    |  268036     |  0.6 |
 | IMDB-BINARY    | GCN    |    16833      | 0.54  |
 
-## Run DSNN Locally
+## Run DSNN 
+
+### Locally
 
 You can run DSNN locally using _main.ipynb_. First, install Anaconda, then create an environment with the Python dependencies (tested on _OS X_):
 
@@ -50,6 +52,14 @@ conda activate dsnn
 jupyter lab
 ```
 Then just run the notebook(s) from start to finish. 
+
+### Via Docker
+Install docker and then:
+```console
+docker pull gerritgr/dsnn:latest
+docker run -p 8888:8888 gerritgr/dsnn:latest
+```
+(make sure to select the dsnnenv kernel.)
 
 
 ## Errata
