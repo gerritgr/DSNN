@@ -2,7 +2,7 @@
 
 ![alt text](overview.png "Overview")
 
-This repository provides a proof-of-concept implementation for the manuscript _Deep Sets Are Viable Graph Learners_.
+This repository provides a proof-of-concept implementation for the manuscript _[Deep Sets Are Viable Graph Learners](https://github.com/gerritgr/DSNN/blob/ca3993605940b924c2a4a54a4673ee27353d6b7d/manuscript.pdf)_.
 
 ## DSNN Model
 DSNN computes predictions on graphs, where the graph is represented as a multiset of nodes. Positional embeddings are computed using the following metrics:
