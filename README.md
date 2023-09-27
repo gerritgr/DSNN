@@ -18,27 +18,7 @@ For comparison, we employ models from _PyTorch Geometric_ as our baselines, spec
 #### Results
 The number of parameters and the accuracy (higher is better) of each model are:
 
-| Dataset | Model  | # Params       |  ACC       |
-|----------|--------|---------------|---------------|
-| MUTAG    | DSNN   |    111553   |   0.8  | 
-| MUTAG    | GIN    |     38017     | 0.74  |
-| MUTAG    | PNA    |   273130    |  0.53 |
-| MUTAG    | GCN    |      16961     | 0.53  |
-|----------|--------|---------------|---------------|
-| PROTEIN    | DSNN   |  106945     |  0.74 |
-| PROTEIN    | GIN    |     37761     |  0.60 |
-| PROTEIN    | PNA    | 269718      |  0.59 |
-| PROTEIN    | GCN    |     17217      | 0.66  |
-|----------|--------|---------------|---------------|
-| ENZYMES    | DSNN   |     107590  |  0.4  |
-| ENZYMES    | GIN    |     38086     |  0.37  |
-| ENZYMES    | PNA    |   270043   |  0.25 |
-| ENZYMES    | GCN    |    17286       | 0.27  |
-|----------|--------|---------------|---------------|
-| IMDB-BINARY    | DSNN   |  104641     |  0.72 |
-| IMDB-BINARY    | GIN    |       37633   |  0.46 |
-| IMDB-BINARY    | PNA    |  268036     |  0.6 |
-| IMDB-BINARY    | GCN    |    16833      | 0.54  |
+![alt text](results.png "Results")
 
 ## Run DSNN 
 
