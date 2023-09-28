@@ -10,6 +10,9 @@ jobs:
   push-image-to-docker-hub:  # job name
     runs-on: ubuntu-latest  # runner name : (ubuntu latest version) 
     steps:
+    - name: Get Date
+      id: date  # This ID is used to refer to the output of this step in subsequent steps
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d--%H-%M-%S')"
     - uses: actions/checkout@v3 # first action : checkout source code
     - name: docker login
       run: | # log into docker hub account
