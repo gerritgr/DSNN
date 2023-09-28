@@ -39,7 +39,7 @@ Install docker and then:
 docker pull gerritgr/dsnn:latest
 docker run -p 8888:8888 gerritgr/dsnn:latest
 ```
-You need to manually copy the URL to your browser, navigate to the notebook and ensure that the dsnnenv kernel is selected. 
+You need to manually copy the URL to your browser, navigate to the notebook, and activate the _dsnnenv_ kernel (`Kernel -> Change Kernel...`). 
 
 
 ## Errata
