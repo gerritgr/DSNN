@@ -6,17 +6,16 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - pytorch 
-  - torchvision 
-  - torchaudio 
-  - pytorch-cuda
-  - pyg
+  - pytorch=2.0.1=py3.10_cuda11.8_cudnn8.7.0_0
+  - pytorch-cuda=11.8
+  - torchvision=0.15.2
+  - torchaudioo=2.0.2
+  - pyg=2.3.1
   - networkx=3.1
-  - numpy
-  - scipy
-  - wand
-  - matplotlib
+  - numpy=1.26
+  - scipy=1.11.1
+  - matplotlib=3.7.2
   - seaborn
-  - pandas
-  - jupyterlab 
-  - wandb
+  - pandas=2.0.3
+  - jupyterlab=3.6.3
+  - wandb=0.15.11
