@@ -9,7 +9,7 @@ dependencies:
   - pytorch=2.0.1=py3.10_cuda11.8_cudnn8.7.0_0
   - pytorch-cuda=11.8
   - torchvision=0.15.2
-  - torchaudioo=2.0.2
+  - torchaudio=2.0.2
   - pyg=2.3.1
   - networkx=3.1
   - numpy=1.26
